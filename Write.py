@@ -73,7 +73,7 @@ while continue_reading:
         if status == MIFAREReader.MI_OK:
 
             # Variable for the data to write
-            data = []
+            data = [010 020 030 040 050 060 070 080 090 100 110 120 130 140 150 160]
 
             # Fill the data with 0xFF
             for x in range(0,16):
